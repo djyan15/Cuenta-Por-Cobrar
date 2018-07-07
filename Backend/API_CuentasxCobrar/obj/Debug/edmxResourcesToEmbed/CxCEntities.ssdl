@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CXCModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AsientosContables">
+    <Key>
+      <PropertyRef Name="id_Asiento" />
+    </Key>
+    <Property Name="id_Asiento" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="id_Cliente" Type="int" />
+    <Property Name="Cuenta" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="TipoDeMovimiento" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="Fecha" Type="date" Nullable="false" />
+    <Property Name="Monto" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Estado" Type="char" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="id_Cliente" />
+    </Key>
+    <Property Name="id_Cliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="Cedula" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="LimiteDeCredito" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Estado" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" />
+  </EntityType>
+  <EntityType Name="TipoDocumentos">
+    <Key>
+      <PropertyRef Name="id_TipoDocumento" />
+    </Key>
+    <Property Name="id_TipoDocumento" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="CuentaContable" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Estado" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Transacciones">
+    <Key>
+      <PropertyRef Name="id_Transaccion" />
+    </Key>
+    <Property Name="id_Transaccion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TipoDeMovimiento" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="id_TipoDocumento" Type="int" />
+    <Property Name="NumeroDeDocumento" Type="int" Nullable="false" />
+    <Property Name="Fecha" Type="date" Nullable="false" />
+    <Property Name="id_Cliente" Type="int" />
+    <Property Name="Monto" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Estado" Type="char" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Transacci__id_Cl__29572725">
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="0..1" />
+    <End Role="Transacciones" Type="Self.Transacciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clientes">
+        <PropertyRef Name="id_Cliente" />
+      </Principal>
+      <Dependent Role="Transacciones">
+        <PropertyRef Name="id_Cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacci__id_Ti__286302EC">
+    <End Role="TipoDocumentos" Type="Self.TipoDocumentos" Multiplicity="0..1" />
+    <End Role="Transacciones" Type="Self.Transacciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipoDocumentos">
+        <PropertyRef Name="id_TipoDocumento" />
+      </Principal>
+      <Dependent Role="Transacciones">
+        <PropertyRef Name="id_TipoDocumento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="Clientes_consulta" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id_Cliente" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Clientes_Edita" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id_Cliente" Type="int" Mode="In" />
+    <Parameter Name="Nombre" Type="varchar" Mode="In" />
+    <Parameter Name="Cedula" Type="varchar" Mode="In" />
+    <Parameter Name="LimiteDeCredito" Type="numeric" Mode="In" />
+  </Function>
+  <Function Name="Clientes_elimina" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id_Cliente" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Clientes_insertar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Nombre" Type="varchar" Mode="In" />
+    <Parameter Name="Cedula" Type="varchar" Mode="In" />
+    <Parameter Name="LimiteDeCredito" Type="numeric" Mode="In" />
+  </Function>
+  <Function Name="Clientes_pagging" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="PageIndex" Type="int" Mode="In" />
+    <Parameter Name="PageSize" Type="int" Mode="In" />
+    <Parameter Name="orderBy0" Type="varchar" Mode="In" />
+    <Parameter Name="orderByDirection0" Type="bit" Mode="In" />
+    <Parameter Name="id_Cliente" Type="int" Mode="In" />
+    <Parameter Name="Nombre" Type="varchar" Mode="In" />
+    <Parameter Name="Cedula" Type="varchar" Mode="In" />
+    <Parameter Name="LimiteDeCredito" Type="int" Mode="In" />
+  </Function>
+  <Function Name="TipoDocumentos_Consulta" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id_TipoDocumento" Type="int" Mode="In" />
+  </Function>
+  <Function Name="TipoDocumentos_edita" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id_TipoDocumento" Type="int" Mode="In" />
+    <Parameter Name="Descripcion" Type="varchar" Mode="In" />
+    <Parameter Name="CuentaContable" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="TipoDocumentos_elimina" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id_TipoDocumento" Type="int" Mode="In" />
+  </Function>
+  <Function Name="TipoDocumentos_Inserta" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Descripcion" Type="varchar" Mode="In" />
+    <Parameter Name="CuentaContable" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="TipoDocumentos_Paging" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="PageIndex" Type="int" Mode="In" />
+    <Parameter Name="PageSize" Type="int" Mode="In" />
+    <Parameter Name="orderBy0" Type="varchar" Mode="In" />
+    <Parameter Name="orderByDirection0" Type="bit" Mode="In" />
+    <Parameter Name="id_TipoDocumento" Type="int" Mode="In" />
+    <Parameter Name="Descripcion" Type="varchar" Mode="In" />
+    <Parameter Name="CuentaContable" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="Transacciones_Consulta" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id_Transaccion" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Transacciones_Edita" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id_Transaccion" Type="int" Mode="In" />
+    <Parameter Name="TipoDeMovimiento" Type="char" Mode="In" />
+    <Parameter Name="id_TipoDocumento" Type="int" Mode="In" />
+    <Parameter Name="NumeroDeDocumento" Type="int" Mode="In" />
+    <Parameter Name="id_Cliente" Type="int" Mode="In" />
+    <Parameter Name="Monto" Type="numeric" Mode="In" />
+  </Function>
+  <Function Name="Transacciones_Elimina" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id_Transaccion" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Transacciones_insertar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TipoDeMovimiento" Type="char" Mode="In" />
+    <Parameter Name="id_TipoDocumento" Type="int" Mode="In" />
+    <Parameter Name="NumeroDeDocumento" Type="int" Mode="In" />
+    <Parameter Name="id_Cliente" Type="int" Mode="In" />
+    <Parameter Name="Monto" Type="numeric" Mode="In" />
+  </Function>
+  <Function Name="Transaciones_Paging_Consulta" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="PageIndex" Type="int" Mode="In" />
+    <Parameter Name="PageSize" Type="int" Mode="In" />
+    <Parameter Name="orderBy0" Type="varchar" Mode="In" />
+    <Parameter Name="orderByDirection0" Type="bit" Mode="In" />
+    <Parameter Name="TipoDeMovimiento" Type="char" Mode="In" />
+    <Parameter Name="id_TipoDocumento" Type="int" Mode="In" />
+    <Parameter Name="Fecha_Desde" Type="varchar" Mode="In" />
+    <Parameter Name="Fecha_Hasta" Type="varchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="CXCModelStoreContainer">
+    <EntitySet Name="AsientosContables" EntityType="Self.AsientosContables" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TipoDocumentos" EntityType="Self.TipoDocumentos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Transacciones" EntityType="Self.Transacciones" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Transacci__id_Cl__29572725" Association="Self.FK__Transacci__id_Cl__29572725">
+      <End Role="Clientes" EntitySet="Clientes" />
+      <End Role="Transacciones" EntitySet="Transacciones" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacci__id_Ti__286302EC" Association="Self.FK__Transacci__id_Ti__286302EC">
+      <End Role="TipoDocumentos" EntitySet="TipoDocumentos" />
+      <End Role="Transacciones" EntitySet="Transacciones" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

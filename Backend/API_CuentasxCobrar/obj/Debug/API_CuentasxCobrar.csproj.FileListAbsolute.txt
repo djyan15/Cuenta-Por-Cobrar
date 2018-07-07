@@ -1,0 +1,279 @@
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\ApplicationInsights.config
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\csc.exe
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\vbc.exe
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\VBCSCompiler.exe
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\API_CuentasxCobrar.dll.config
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\API_CuentasxCobrar.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\API_CuentasxCobrar.pdb
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Antlr3.Runtime.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\EntityFramework.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\EntityFramework.SqlServer.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AI.Web.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.ApplicationInsights.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Newtonsoft.Json.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Owin.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Net.Http.Formatting.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Helpers.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Http.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Http.Owin.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Http.WebHost.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Mvc.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Optimization.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Razor.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.WebPages.Deployment.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.WebPages.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.WebPages.Razor.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\WebGrease.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AI.Web.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.ApplicationInsights.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Newtonsoft.Json.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Net.Http.Formatting.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Helpers.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Http.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Http.WebHost.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Mvc.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Optimization.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Razor.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.WebPages.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.WebPages.Deployment.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.WebPages.Razor.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Antlr3.Runtime.pdb
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\EntityFramework.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\EntityFramework.SqlServer.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Http.Owin.xml
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\obj\Debug\API_CuentasxCobrar.csprojResolveAssemblyReference.cache
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\obj\Debug\API_CuentasxCobrar.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\obj\Debug\API_CuentasxCobrar.pdb
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Cors.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Http.Cors.dll
+C:\Users\B.leyba\Documents\Visual Studio 2015\Projects\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Http.Cors.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\ApplicationInsights.config
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\csc.exe
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\vbc.exe
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\VBCSCompiler.exe
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\API_CuentasxCobrar.dll.config
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\API_CuentasxCobrar.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\API_CuentasxCobrar.pdb
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Antlr3.Runtime.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\EntityFramework.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\EntityFramework.SqlServer.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AI.Web.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.ApplicationInsights.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Newtonsoft.Json.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Owin.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Net.Http.Formatting.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Cors.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Helpers.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Http.Cors.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Http.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Http.Owin.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Http.WebHost.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Mvc.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Optimization.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Razor.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.WebPages.Deployment.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.WebPages.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.WebPages.Razor.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\WebGrease.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AI.Web.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.ApplicationInsights.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Net.Http.Formatting.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Http.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Http.Cors.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Newtonsoft.Json.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Helpers.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Http.WebHost.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Mvc.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Optimization.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Razor.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.WebPages.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.WebPages.Deployment.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.WebPages.Razor.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Antlr3.Runtime.pdb
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\EntityFramework.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\EntityFramework.SqlServer.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\bin\System.Web.Http.Owin.xml
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\obj\Debug\API_CuentasxCobrar.csprojResolveAssemblyReference.cache
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\obj\Debug\API_CuentasxCobrar.dll
+C:\Users\b.rosario\Documents\API_CuentasxCobrar\API_CuentasxCobrar\obj\Debug\API_CuentasxCobrar.pdb
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\obj\Debug\API_CuentasxCobrar.csprojResolveAssemblyReference.cache
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\obj\Debug\API_CuentasxCobrar.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\obj\Debug\API_CuentasxCobrar.pdb
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\ApplicationInsights.config
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\roslyn\csc.exe
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\roslyn\System.Collections.Immutable.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\roslyn\System.Reflection.Metadata.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\roslyn\vbc.exe
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\roslyn\VBCSCompiler.exe
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\roslyn\VBCSCompiler.exe.config
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\API_CuentasxCobrar.dll.config
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\API_CuentasxCobrar.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\API_CuentasxCobrar.pdb
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Antlr3.Runtime.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\EntityFramework.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\EntityFramework.SqlServer.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.AI.DependencyCollector.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.AI.Web.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.AI.WindowsServer.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.ApplicationInsights.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.Owin.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.Owin.Security.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Google.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.Web.Infrastructure.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Newtonsoft.Json.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Owin.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Net.Http.Formatting.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.Cors.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.Helpers.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.Http.Cors.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.Http.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.Http.Owin.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.Http.WebHost.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.Mvc.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.Optimization.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.Razor.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.WebPages.Deployment.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.WebPages.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.WebPages.Razor.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\WebGrease.dll
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\EntityFramework.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\EntityFramework.SqlServer.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.AI.DependencyCollector.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.AI.Web.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.AI.WindowsServer.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.ApplicationInsights.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Net.Http.Formatting.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.Http.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.Http.Cors.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Newtonsoft.Json.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.Helpers.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.Http.WebHost.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.Mvc.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.Optimization.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.Razor.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.WebPages.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.WebPages.Deployment.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.WebPages.Razor.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Antlr3.Runtime.pdb
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.Owin.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.Owin.Security.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Google.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Cuentas por Cobrar\Backend\CxC\API_CuentasxCobrar\bin\System.Web.Http.Owin.xml

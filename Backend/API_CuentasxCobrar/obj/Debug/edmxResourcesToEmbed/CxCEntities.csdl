@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CXCModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AsientosContable">
+    <Key>
+      <PropertyRef Name="id_Asiento" />
+    </Key>
+    <Property Name="id_Asiento" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descripcion" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="id_Cliente" Type="Int32" />
+    <Property Name="Cuenta" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TipoDeMovimiento" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Monto" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Estado" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="id_Cliente" />
+    </Key>
+    <Property Name="id_Cliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Cedula" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LimiteDeCredito" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Estado" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Transacciones" Relationship="Self.FK__Transacci__id_Cl__29572725" FromRole="Clientes" ToRole="Transacciones" />
+  </EntityType>
+  <EntityType Name="TipoDocumento">
+    <Key>
+      <PropertyRef Name="id_TipoDocumento" />
+    </Key>
+    <Property Name="id_TipoDocumento" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descripcion" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CuentaContable" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Estado" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Transacciones" Relationship="Self.FK__Transacci__id_Ti__286302EC" FromRole="TipoDocumentos" ToRole="Transacciones" />
+  </EntityType>
+  <EntityType Name="Transaccione">
+    <Key>
+      <PropertyRef Name="id_Transaccion" />
+    </Key>
+    <Property Name="id_Transaccion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TipoDeMovimiento" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="id_TipoDocumento" Type="Int32" />
+    <Property Name="NumeroDeDocumento" Type="Int32" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="id_Cliente" Type="Int32" />
+    <Property Name="Monto" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Estado" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Cliente" Relationship="Self.FK__Transacci__id_Cl__29572725" FromRole="Transacciones" ToRole="Clientes" />
+    <NavigationProperty Name="TipoDocumento" Relationship="Self.FK__Transacci__id_Ti__286302EC" FromRole="Transacciones" ToRole="TipoDocumentos" />
+  </EntityType>
+  <Association Name="FK__Transacci__id_Cl__29572725">
+    <End Role="Clientes" Type="Self.Cliente" Multiplicity="0..1" />
+    <End Role="Transacciones" Type="Self.Transaccione" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clientes">
+        <PropertyRef Name="id_Cliente" />
+      </Principal>
+      <Dependent Role="Transacciones">
+        <PropertyRef Name="id_Cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacci__id_Ti__286302EC">
+    <End Role="TipoDocumentos" Type="Self.TipoDocumento" Multiplicity="0..1" />
+    <End Role="Transacciones" Type="Self.Transaccione" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipoDocumentos">
+        <PropertyRef Name="id_TipoDocumento" />
+      </Principal>
+      <Dependent Role="Transacciones">
+        <PropertyRef Name="id_TipoDocumento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CXCEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AsientosContables" EntityType="Self.AsientosContable" />
+    <EntitySet Name="Clientes" EntityType="Self.Cliente" />
+    <EntitySet Name="TipoDocumentos" EntityType="Self.TipoDocumento" />
+    <EntitySet Name="Transacciones" EntityType="Self.Transaccione" />
+    <AssociationSet Name="FK__Transacci__id_Cl__29572725" Association="Self.FK__Transacci__id_Cl__29572725">
+      <End Role="Clientes" EntitySet="Clientes" />
+      <End Role="Transacciones" EntitySet="Transacciones" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacci__id_Ti__286302EC" Association="Self.FK__Transacci__id_Ti__286302EC">
+      <End Role="TipoDocumentos" EntitySet="TipoDocumentos" />
+      <End Role="Transacciones" EntitySet="Transacciones" />
+    </AssociationSet>
+    <FunctionImport Name="Clientes_consulta" ReturnType="Collection(CXCModel.Clientes_consulta_Result)">
+      <Parameter Name="id_Cliente" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Clientes_Edita" ReturnType="Collection(CXCModel.Clientes_Edita_Result)">
+      <Parameter Name="id_Cliente" Mode="In" Type="Int32" />
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="Cedula" Mode="In" Type="String" />
+      <Parameter Name="LimiteDeCredito" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="Clientes_elimina">
+      <Parameter Name="id_Cliente" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Clientes_insertar" ReturnType="Collection(CXCModel.Clientes_insertar_Result)">
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="Cedula" Mode="In" Type="String" />
+      <Parameter Name="LimiteDeCredito" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="Clientes_pagging">
+      <Parameter Name="PageIndex" Mode="In" Type="Int32" />
+      <Parameter Name="PageSize" Mode="In" Type="Int32" />
+      <Parameter Name="orderBy0" Mode="In" Type="String" />
+      <Parameter Name="orderByDirection0" Mode="In" Type="Boolean" />
+      <Parameter Name="id_Cliente" Mode="In" Type="Int32" />
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="Cedula" Mode="In" Type="String" />
+      <Parameter Name="LimiteDeCredito" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="TipoDocumentos_Consulta" ReturnType="Collection(CXCModel.TipoDocumentos_Consulta_Result)">
+      <Parameter Name="id_TipoDocumento" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="TipoDocumentos_edita" ReturnType="Collection(CXCModel.TipoDocumentos_edita_Result)">
+      <Parameter Name="id_TipoDocumento" Mode="In" Type="Int32" />
+      <Parameter Name="Descripcion" Mode="In" Type="String" />
+      <Parameter Name="CuentaContable" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="TipoDocumentos_elimina">
+      <Parameter Name="id_TipoDocumento" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="TipoDocumentos_Inserta" ReturnType="Collection(CXCModel.TipoDocumentos_Inserta_Result)">
+      <Parameter Name="Descripcion" Mode="In" Type="String" />
+      <Parameter Name="CuentaContable" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="TipoDocumentos_Paging">
+      <Parameter Name="PageIndex" Mode="In" Type="Int32" />
+      <Parameter Name="PageSize" Mode="In" Type="Int32" />
+      <Parameter Name="orderBy0" Mode="In" Type="String" />
+      <Parameter Name="orderByDirection0" Mode="In" Type="Boolean" />
+      <Parameter Name="id_TipoDocumento" Mode="In" Type="Int32" />
+      <Parameter Name="Descripcion" Mode="In" Type="String" />
+      <Parameter Name="CuentaContable" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Transacciones_Consulta" ReturnType="Collection(CXCModel.Transacciones_Consulta_Result)">
+      <Parameter Name="id_Transaccion" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Transacciones_Edita" ReturnType="Collection(CXCModel.Transacciones_Edita_Result)">
+      <Parameter Name="id_Transaccion" Mode="In" Type="Int32" />
+      <Parameter Name="TipoDeMovimiento" Mode="In" Type="String" />
+      <Parameter Name="id_TipoDocumento" Mode="In" Type="Int32" />
+      <Parameter Name="NumeroDeDocumento" Mode="In" Type="Int32" />
+      <Parameter Name="id_Cliente" Mode="In" Type="Int32" />
+      <Parameter Name="Monto" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="Transacciones_Elimina">
+      <Parameter Name="id_Transaccion" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Transacciones_insertar" ReturnType="Collection(CXCModel.Transacciones_insertar_Result)">
+      <Parameter Name="TipoDeMovimiento" Mode="In" Type="String" />
+      <Parameter Name="id_TipoDocumento" Mode="In" Type="Int32" />
+      <Parameter Name="NumeroDeDocumento" Mode="In" Type="Int32" />
+      <Parameter Name="id_Cliente" Mode="In" Type="Int32" />
+      <Parameter Name="Monto" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="Transaciones_Paging_Consulta">
+      <Parameter Name="PageIndex" Mode="In" Type="Int32" />
+      <Parameter Name="PageSize" Mode="In" Type="Int32" />
+      <Parameter Name="orderBy0" Mode="In" Type="String" />
+      <Parameter Name="orderByDirection0" Mode="In" Type="Boolean" />
+      <Parameter Name="TipoDeMovimiento" Mode="In" Type="String" />
+      <Parameter Name="id_TipoDocumento" Mode="In" Type="Int32" />
+      <Parameter Name="Fecha_Desde" Mode="In" Type="String" />
+      <Parameter Name="Fecha_Hasta" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="Clientes_consulta_Result">
+    <Property Type="Int32" Name="id_Cliente" Nullable="false" />
+    <Property Type="String" Name="Nombre" Nullable="false" MaxLength="25" />
+    <Property Type="String" Name="Cedula" Nullable="false" MaxLength="11" />
+    <Property Type="Decimal" Name="LimiteDeCredito" Nullable="false" Precision="18" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="Clientes_Edita_Result">
+    <Property Type="Int32" Name="id_Cliente" Nullable="false" />
+    <Property Type="String" Name="Nombre" Nullable="false" MaxLength="25" />
+    <Property Type="String" Name="Cedula" Nullable="false" MaxLength="11" />
+    <Property Type="Decimal" Name="LimiteDeCredito" Nullable="false" Precision="18" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="Clientes_insertar_Result">
+    <Property Type="Int32" Name="id_Cliente" Nullable="false" />
+    <Property Type="String" Name="Nombre" Nullable="false" MaxLength="25" />
+    <Property Type="String" Name="Cedula" Nullable="false" MaxLength="11" />
+    <Property Type="Decimal" Name="LimiteDeCredito" Nullable="false" Precision="18" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="TipoDocumentos_Consulta_Result">
+    <Property Type="String" Name="Descripcion" Nullable="false" MaxLength="250" />
+    <Property Type="String" Name="CuentaContable" Nullable="false" MaxLength="15" />
+  </ComplexType>
+  <ComplexType Name="TipoDocumentos_edita_Result">
+    <Property Type="String" Name="Descripcion" Nullable="false" MaxLength="250" />
+    <Property Type="String" Name="CuentaContable" Nullable="false" MaxLength="15" />
+  </ComplexType>
+  <ComplexType Name="TipoDocumentos_Inserta_Result">
+    <Property Type="String" Name="Descripcion" Nullable="false" MaxLength="250" />
+    <Property Type="String" Name="CuentaContable" Nullable="false" MaxLength="15" />
+  </ComplexType>
+  <ComplexType Name="Transacciones_Consulta_Result">
+    <Property Type="Int32" Name="id_Transaccion" Nullable="false" />
+    <Property Type="String" Name="TipoDeMovimiento" Nullable="false" MaxLength="2" />
+    <Property Type="String" Name="Descripcion" Nullable="false" MaxLength="250" />
+    <Property Type="Int32" Name="NumeroDeDocumento" Nullable="false" />
+    <Property Type="DateTime" Name="Fecha" Nullable="false" />
+    <Property Type="String" Name="Nombre" Nullable="false" MaxLength="25" />
+    <Property Type="Decimal" Name="Monto" Nullable="false" Precision="18" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="Transacciones_Edita_Result">
+    <Property Type="Int32" Name="id_Transaccion" Nullable="false" />
+    <Property Type="String" Name="TipoDeMovimiento" Nullable="false" MaxLength="2" />
+    <Property Type="String" Name="Descripcion" Nullable="false" MaxLength="250" />
+    <Property Type="Int32" Name="NumeroDeDocumento" Nullable="false" />
+    <Property Type="DateTime" Name="Fecha" Nullable="false" />
+    <Property Type="String" Name="Nombre" Nullable="false" MaxLength="25" />
+    <Property Type="Decimal" Name="Monto" Nullable="false" Precision="18" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="Transacciones_insertar_Result">
+    <Property Type="Int32" Name="id_Transaccion" Nullable="false" />
+    <Property Type="String" Name="TipoDeMovimiento" Nullable="false" MaxLength="2" />
+    <Property Type="String" Name="Descripcion" Nullable="false" MaxLength="250" />
+    <Property Type="Int32" Name="NumeroDeDocumento" Nullable="false" />
+    <Property Type="DateTime" Name="Fecha" Nullable="false" />
+    <Property Type="String" Name="Nombre" Nullable="false" MaxLength="25" />
+    <Property Type="Decimal" Name="Monto" Nullable="false" Precision="18" Scale="2" />
+  </ComplexType>
+</Schema>
